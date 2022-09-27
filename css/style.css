@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.h-top {
+    background-color: #ff5a00;
+}
+
+.h-login {
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.hero {
+    background-color: #ffeee5;
+    height: 470px;
+    position: relative;
+}
+
+.h-area {
+    height: 470px;
+}
+
+.img-1 {
+    position: absolute;
+    top: 54px;
+    left: 0;
+    width: 194px;
+}
+
+.img-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 349px;
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.search input {
+
+    height: 52px;
+    text-indent: 25px;
+    border: 1px solid #a6a6a6;
+
+
+
+}
+
+
+.search input:focus {
+
+    box-shadow: none;
+    border: 2px solid blue;
+
+
+}
+
+.search .fa-location-dot {
+
+    position: absolute;
+    top: 20px;
+    left: 16px;
+
+}
+
+.search button {
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    width: 110px;
+    background-color: #ff5a00;
+    border: none;
+    outline: none;
+
+
+}
+
+.app {
+    
+    height: auto;
+}
+
+.app img {
+    max-width: 162px;
+}
+
+.my-card {
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 1rem;
+ 
+
+}
+
+.img-section {
+    width: 40%;
+    position: relative;
+    max-width: 200px;
+}
+
+.img-section img{
+
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 164px;
+    max-height: 164px;
+   
+
+}
+
+.img-section2 {
+    width: 40%;
+    position: relative;
+    max-width: 200px;
+}
+
+.img-section2 img{
+
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 220px;
+    max-height: 220px;
+   
+
+}
+
+.detail-section {
+    width: 60%;
+  
+}
+.rest{
+    background-color: #ff493d;
+    border-radius: 8px 0 0 8px;
+
+}
+.groc{
+    background-color:#f4aa33;
+    border-radius: 8px 0 0 8px;
+
+}
+.flow{
+    background-color: #e93c82;
+     border-radius: 8px 0 0 8px;
+}
+.phar{
+    background-color:#3d76ed;
+     border-radius: 8px 0 0 8px;
+}
+.detail-section a{
+    text-decoration: none;
+}
+.btn-find{
+    background-color: #ff5a00;
+    color: #ffffff;
+
+}
+.phone{
+    width: 100%;
+    max-width: 393px;
+    margin-left: auto;
+  }
+.foz{
+    font-size: 0.8rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 992px){
+    .hero {
+        height: auto;
+        background: none;
+    
+    }
+    .hero img {
+        position: absolute;
+        display: none;
+        
+        
+    }
+    .h-area{
+        height: auto;
+        margin-top: 2rem;
+    }
+
+}
